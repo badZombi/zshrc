@@ -4,8 +4,10 @@ export ZSH="/root/.oh-my-zsh"
 ZSH_THEME="candy"
 export UPDATE_ZSH_DAYS=30
 COMPLETION_WAITING_DOTS="true"
-plugins=(git zsh-syntax-highlighting)
+plugins=(git)
 source $ZSH/oh-my-zsh.sh
+
+unsetopt PROMPT_SP
 
 export PATH="$PATH:/scripts"
 

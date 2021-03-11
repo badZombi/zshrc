@@ -1,0 +1,38 @@
+# stuff...
+
+export ZSH="/root/.oh-my-zsh"
+ZSH_THEME="candy"
+export UPDATE_ZSH_DAYS=30
+COMPLETION_WAITING_DOTS="true"
+plugins=()
+source $ZSH/oh-my-zsh.sh
+
+unsetopt PROMPT_SP
+
+export PATH="$PATH:/scripts"
+
+export PATH="$PATH:/app"
+
+function gad(){
+  echo ':: -- Sorry, git aliases have been removed from this build.'
+})
+
+function gsta(){
+  echo ':: -- Sorry, git aliases have been removed from this build.'
+})
+
+function gcome(){
+  echo ':: -- Sorry, git aliases have been removed from this build.'
+})
+
+function gcom(){
+   echo ":: -- Sorry, git aliases have been removed from this build."
+}
+
+function gpus(){
+  echo ":: -- Sorry, git aliases have been removed from this build."
+}
+
+function gpul(){
+  echo ":: -- Sorry, git aliases have been removed from this build."
+}

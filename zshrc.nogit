@@ -15,15 +15,15 @@ export PATH="$PATH:/app"
 
 function gad(){
   echo ':: -- Sorry, git aliases have been removed from this build.'
-})
+}
 
 function gsta(){
   echo ':: -- Sorry, git aliases have been removed from this build.'
-})
+}
 
 function gcome(){
   echo ':: -- Sorry, git aliases have been removed from this build.'
-})
+}
 
 function gcom(){
    echo ":: -- Sorry, git aliases have been removed from this build."
